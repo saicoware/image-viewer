@@ -1,4 +1,4 @@
-import Canvas from '../components/Canvas';
+import Canvas from '../src/components/Canvas';
 
 const Index = () => (
   <div>
