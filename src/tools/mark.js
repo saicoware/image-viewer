@@ -4,7 +4,7 @@ const colors = {
   car: 'green'
 }
 
-function mark({ x, y, width, height, label }) {
+function markRectangle(x, y, width, height, label) {
   let c = document.getElementById('canvas');
   let ctx = c.getContext('2d');
 
@@ -19,7 +19,7 @@ function mark({ x, y, width, height, label }) {
 
 function markBoxes(boxes) {
   boxes.forEach(box => {
-    mark(box);
+    markRectangle(box.x, box.y, box.width, box.height, box.label);
   });
 }
 

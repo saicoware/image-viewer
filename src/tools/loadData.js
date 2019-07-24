@@ -1,6 +1,6 @@
-const data = require('../../data/yolo3.json');
+import data from  '../../data/yolo3.json';
 
-let read = () => {
+const read = () => {
   const labels = data.labels;
   let images = [];
   for (let key in data.images) {
