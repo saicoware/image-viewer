@@ -5,7 +5,8 @@ function draw() {
   img.onload = function () {
     ctx.drawImage(img, 0, 0);
   };
-  img.src = 'https://res.cloudinary.com/dwtfxrpnf/image/upload/v1562594243/teslaM3_qebd9j.jpg';
+  img.src = 'https://res.cloudinary.com/dwtfxrpnf/image/upload/v1563736464/image00_woohkx.jpg';
+
 }
 
 export default draw;
